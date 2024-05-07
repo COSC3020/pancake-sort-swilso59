@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/-m0g1A8z)
 # Pancake Sort
 
 There is an abstract data type (ADT) called a *pancake array*, which provides
@@ -29,3 +30,15 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+## In Terms of Number of Comparison 
+- In each iteration of the outer loop, we find the max element. This takes n comparisions in the worst case senario. we also Need to iterate through the entire array 
+- The asymptotic runtime $\Theta(n^{2})$
+## In terms of Flips 
+- Each element in the array will at most need to be flipped 2 times.
+- This could be less than 2 however.
+- In the worst case we will need $O(2n)$ flips.
+- This gives us the asymptotic runtime $\Theta(n)$ in terms of flips.
+
+// I reviewed material from https://www.geeksforgeeks.org/pancake-sorting/#
+// pancake-sort-kbuss26
+// pancake-sort-IshitaPatel18
